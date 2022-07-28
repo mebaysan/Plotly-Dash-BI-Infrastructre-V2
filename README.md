@@ -1,5 +1,24 @@
 [![CI for `main` branch](https://github.com/mebaysan/Plotly-Dash-BI-Infrastructre-V2/actions/workflows/main.yml/badge.svg)](https://github.com/mebaysan/Plotly-Dash-BI-Infrastructre-V2/actions/workflows/main.yml)
 
+# Contents
+- [Contents](#contents)
+- [Dash-User-Management](#dash-user-management)
+- [Core](#core)
+- [Database](#database)
+  - [Database Migration](#database-migration)
+  - [Database Seed](#database-seed)
+- [Mail Setup](#mail-setup)
+- [Gallery](#gallery)
+  - [Login Page](#login-page)
+  - [Overview (Index) Page](#overview-index-page)
+  - [Sidebar](#sidebar)
+  - [Profile Page](#profile-page)
+  - [Admin User Management Page](#admin-user-management-page)
+  - [Admin User Management Page - User Add Form](#admin-user-management-page---user-add-form)
+  - [Admin User Management Page - User Update Form](#admin-user-management-page---user-update-form)
+  - [Admin Roles Management Page](#admin-roles-management-page)
+  - [Admin Groups Management Page](#admin-groups-management-page)
+- [License](#license)
 
 # Dash-User-Management
 
@@ -83,31 +102,31 @@ MAIL_USE_SSL=True
 
 # Gallery
 
-# Login Page
+## Login Page
 ![](gallery/gallery-login.png)
 
-# Overview (Index) Page
+## Overview (Index) Page
 ![](gallery/gallery-overview.png)
 
-# Sidebar
+## Sidebar
 ![](gallery/gallery-sidebar.png)
 
-# Profile Page
+## Profile Page
 ![](gallery/gallery-profile.png)
 
-# Admin User Management Page
+## Admin User Management Page
 ![](gallery/gallery-admin-users.png)
 
-# Admin User Management Page - User Add Form
+## Admin User Management Page - User Add Form
 ![](gallery/gallery-admin-user-add.png)
 
-# Admin User Management Page - User Update Form
+## Admin User Management Page - User Update Form
 ![](gallery/gallery-admin-user-update.png)
 
-# Admin Roles Management Page
+## Admin Roles Management Page
 ![](gallery/gallery-admin-roles.png)
 
-# Admin Groups Management Page
+## Admin Groups Management Page
 ![](gallery/gallery-admin-groups.png)
 
 
