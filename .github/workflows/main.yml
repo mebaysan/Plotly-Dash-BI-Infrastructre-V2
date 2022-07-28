@@ -1,0 +1,25 @@
+name: CI for `main` branch
+
+on:
+  push:
+    branches: [ main ]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install the dependencies
+        run: make install
+
+#      - name: Lint the code
+ #       run: make lint
+
+      - name: Format the code
+        run: make format
+
+#      - name: Test the code
+ #       run: make test
